@@ -1,7 +1,7 @@
 # Set stream parameters
 nameoutputfile = 'exampleoutput.json'
-setlimit = 10
-keywords = ['data science']
+setlimit = 100
+keywords = ['world']
 tweetlang = ['en']  
 
 # Important Notes:

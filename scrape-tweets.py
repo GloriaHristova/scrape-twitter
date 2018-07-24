@@ -56,3 +56,4 @@ class MyListener(StreamListener):
 stream_listener =  MyListener(limit = scrapeoptions.setlimit) # the default limit is 10 tweets
 twitter_stream = Stream(auth,stream_listener)
 twitter_stream.filter(track=scrapeoptions.keywords, languages = scrapeoptions.tweetlang)
+print("Your tweets are ready.")
