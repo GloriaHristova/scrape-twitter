@@ -55,7 +55,7 @@ Brief explanation of the options (in the python scripts you can find comments wi
 ### Step 4: Place all the necessary files (`scrape-tweets.py`, `scrapeoptions.py`, `authenticate.py`) into one directory (your working folder) on your computer. 
 ### Step 5: Open your command prompt, change the directory (to match your working folder) and run:
 ```
-python scrape.py
+python scrape-tweets.py
 ```
 Then a new json file will be created in your working folder – python will append to this file the incoming tweets based on your filter and when reaching the limit that you have manually set – the program will stop (you will receive a message in your command prompt). 
 The tweets contain all available information and are in json format. 
